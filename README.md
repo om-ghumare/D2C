@@ -4,3 +4,4 @@ Libraries for UI/UX Designers: storytale, icons8, figma community
 Uncopyrighted images and vectors: pexels, unsplash, undraw
 Icon libraries: fontawesome
 Font Libraries: Google Fonts
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
