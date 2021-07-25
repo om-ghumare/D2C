@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar_01</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        header{
+            display: block;
+            width: 100vw;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .header_vector{
+            position: absolute;
+            top: -30px;
+            width: 100%;
+            z-index: -2;
+        }
+
+        nav{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .logo{
+            padding: 15px 0 0 35px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu_items{
+            text-decoration: none;
+            color:  rgb(35 60 105);
+            padding: 15px 15px;
+        }
+
+        .hamburger_menu{
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .ham_line{
+            border-radius: 5px;
+            width: 30px;
+            background-color: #3d5577;;
+            padding: 2px;
+            margin: 2px;
+        }
+
+        .logo_line{
+            display: none;
+        }
+
+        @media screen and (max-width: 1320px){
+
+            .header_vector{
+                display: none;
+            }
+
+            nav{
+                justify-content: center;
+            }
+
+            .logo{
+                width:  100%;
+                text-align:  center;
+            }
+
+            .logo_line{
+                display: block;
+                width: 80%;
+                background-color: #182748;
+                height: 1px;
+                margin: 10px 0;
+            }
+
+            .menu{
+                width: 100%;
+                justify-content: center;
+            }
+
+            .menu_items{
+                padding: 15px 2vw;
+            }
+        }
+
+        @media screen and (max-width: 700px){
+
+            nav{
+                justify-content: space-between;
+            }
+
+            .logo{
+                padding: 15px;
+                justify-content: space-between;
+            }
+
+            .logo img{
+                width: 90%;
+            }
+
+            .logo_line{
+                display: none;
+            }
+
+            .hamburger_menu{
+                display: flex;
+                justify-content: center;
+            }
+
+            .menu{
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background-color: #182748
+            }
+
+            .menu_items{
+                display: block;
+                width: 100%;
+                text-align:  center;
+                color: white;
+                border-bottom:  1px solid white;
+            }
+        }
+
+        @media screen and (max-width:435px){
+            .ham_line {
+                width: 25px;
+                padding: 2px;
+                margin: 1px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/Vector 7.png" alt="" srcset="" class="header_vector">
+        <nav>
+            <div class="logo">
+                <img src="/Group_68-removebg-preview.png" alt="" srcset="">
+                <div class="hamburger_menu">
+                    <div class="ham_line"></div>
+                    <div class="ham_line"></div>
+                    <div class="ham_line"></div>
+                </div>
+            </div>
+            <div class="logo_line"></div>
+            <div class="menu">
+                <a href="" class="menu_items">Home</a>
+                <a href="" class="menu_items">About</a>
+                <a href="" class="menu_items">E-services</a>
+                <a href="" class="menu_items">Flagship Projects</a>
+                <a href="" class="menu_items">Policies</a>
+                <a href="" class="menu_items">Resource center</a>
+                <a href="" class="menu_items">Contact</a>
+            </div>
+
+        </nav>
+    </header>
+</body>
+<script>
+     $(document).ready(function(){
+      $(".hamburger_menu").click(function(){
+        $(".menu").slideToggle(1000);
+      });
+    });
+</script>
+</html>
