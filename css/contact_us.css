@@ -1,0 +1,238 @@
+.contact_parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 10px;
+}
+
+
+@media screen and (min-width: 700px) {
+  .contact_body {
+    width: 85%;
+    display: flex;
+
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px grey;
+  }
+  .left_contact {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  .headoffice_b,
+  .regionaloffice_b,
+  .divisionaloffice_b {
+    padding: 10px;
+    margin: 3px 3px;
+    background-color: rgb(153, 209, 223);
+
+    border-radius: 7px;
+    font-size: 100%;
+    text-align: center;
+  }
+
+
+  .headoffice_b{
+  
+    background-color:rgb(69, 162, 224);
+    font-size: 110%;
+  }
+
+
+  .headoffice_b:hover,
+  .regionaloffice_b:hover,
+  .divisionaloffice_b:hover{
+    color: whitesmoke;
+    transform: scale(1.06);
+  }
+
+  
+
+
+
+
+
+  .right_contact {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #e0ebeb;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .headoffice_cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .regionaloffice_cont,
+  .divisionaloffice_cont {
+    display: none;
+    flex-direction: column;
+  }
+
+  .post,
+  #region,
+  #project,
+  .civil,
+  .electrical {
+    display: flex;
+    background-color: rgb(157, 193, 222);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 2px 10px;
+  }
+
+  .officer,
+  .project,
+  .region {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .details {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    background-color: #bddfdf;
+    margin: 5px 2px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  .city,
+  .project_name {
+    font-weight: bold;
+    color: #008d92;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    margin-right: 5px;
+  }
+  span {
+    margin: 1px;
+    font-size: 85%;
+    margin-right: 5px;
+    padding: 1px 3px;
+  }
+  .address {
+    margin: 3px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact_body {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px grey;
+  }
+  .left_contact {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  .headoffice_b,
+  .regionaloffice_b,
+  .divisionaloffice_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    margin: 3px 3px;
+    background-color: rgba(153, 209, 223, 0.5);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .right_contact {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #e0ebeb;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .headoffice_cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .regionaloffice_cont,
+  .divisionaloffice_cont {
+    display: none;
+    flex-direction: column;
+  }
+
+  .post,
+  #region,
+  #project,
+  .civil,
+  .electrical {
+    display: flex;
+    background-color: rgb(157, 193, 222);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 2px 10px;
+  }
+
+  .officer,
+  .project,
+  .region {
+    display: flex;
+    flex-direction: column;
+  }
+  .details {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #bddfdf;
+    margin: 5px 2px;
+    padding: 2px 2px;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  .city,
+  .project_name {
+    font-weight: bold;
+    color: #008d92;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    margin-right: 5px;
+  }
+  span {
+    margin: 1px;
+    font-size: 85%;
+    margin-right: 5px;
+    padding: 1px 3px;
+  }
+  .address {
+    margin: 3px;
+  }
+}
