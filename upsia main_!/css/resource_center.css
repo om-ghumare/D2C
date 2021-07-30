@@ -1,0 +1,275 @@
+
+.resource_parent_container{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.resource_container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource_menu{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.resource_menu_items{
+    margin: 1px;
+    padding: 13px;
+    background-color: #345677;
+}
+
+.resource_menu_items:hover{
+    cursor: pointer;
+}
+
+
+.right{
+    margin: 1px;
+    padding: 15px;
+    background-color: #345677;
+}
+
+.right:hover{
+    cursor: pointer;
+}
+
+.resource_menu_box_1{
+    display: flex;
+    flex-direction: row;
+}
+
+.resource_menu_box_2{
+    display: none;
+    flex-direction: row;
+}
+
+.resource_menu_box{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid white;
+}
+
+.resource_menu_heading{
+    display: none;
+}
+
+.right_1{
+    display: none;
+}
+
+.resource_menu_1{
+    display: none;
+}
+
+.resource_content{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.resource_viewer{
+    display: none;
+    width: 100%;
+}
+
+.development_process_content{
+    width: 100%;
+    display: flex;
+}
+
+.office_orders{
+    display: none;
+}
+
+
+@media screen and (max-width:1300px){
+    .resource_menu_items{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .resource_menu_items{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .right{
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:850px){
+    
+    .resource_container{
+        width: 90%;
+    }
+
+    .resource_menu{
+        display: none;
+    }
+
+    .resource_menu_1{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+    }
+
+    .resource_menu_head{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: #345677;
+        justify-content: space-between;
+    }
+
+    .resource_menu_items{
+        margin: 1px 0;
+    }
+
+    .resource_menu_heading{
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+    }
+
+
+    .right_1{
+        display: flex !important;
+        border-left: 1px solid white;
+        margin: 0;
+        font-size: 15px;
+        padding: 10px;
+        color: white;
+        background-color: #345677;
+    }
+
+    table{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:508px){
+    .resource_menu_heading{
+        font-size: 10px;
+    }
+
+    .right_1{
+        font-size: 10px;
+    }
+}
+
+
+
+table{
+    width: 100%;
+}
+
+thead{
+    width: 100%;
+}
+
+tr{
+    background-color:rgba(18, 221, 234, 0.2);
+}
+
+thead tr{
+    width: 100%;
+    background-color: rgba(18, 221, 234, 0.65);
+}
+
+th{
+    padding: 10px 0;
+    text-align: center;
+    border-left: 1px solid white;
+}
+
+
+td{
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 13px;
+}
+
+.active_tab_heading{
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 45px;
+}
+
+th:nth-child(0){
+    width: 3%;
+}
+
+th:nth-child(1){
+    width: 13%;
+}
+
+th:nth-child(2){
+    width: 5%;
+}
+
+th:nth-child(3){
+    width: 9%;
+}
+
+@media screen and (max-width:900px){
+    td{
+        font-size: 10px;
+    }
+}
+
+
+.development_process_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.dev_process_text{
+    padding: 3px;
+    margin: 20px 3px;
+}
+
+.development_process_content th:nth-child(1) {
+    width: 1%;
+}
+
+
+@media screen and (max-width:900px){
+
+
+.development_process_content td{
+    font-size: 15px;
+}
+}
+@media screen and (min-width:900px){
+
+
+    .development_process_content td{
+        font-size: 18px;
+    }
+    }
+
+.dev_process_pro_title{
+    margin: 15px 0;
+    font-size: 18px;
+}
