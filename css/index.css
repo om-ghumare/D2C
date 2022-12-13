@@ -595,7 +595,7 @@ svg {
 
 .video_gallery iframe {
   max-width: 400px;
-  min-width: 310px;
+  min-width: 300px;
   width: 50%;
   height: 280px;
   padding: 0 20px;

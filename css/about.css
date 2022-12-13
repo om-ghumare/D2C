@@ -271,4 +271,19 @@ html {
   }
 }
 
+@media screen and (max-width: 330px) {
+  .owl-nav .owl-next {
+    right: -50px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -50px;
+  }
+  
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 150px !important;
+  }
+}
+
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");

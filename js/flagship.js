@@ -1,10 +1,10 @@
 
     project_names = ['TRANS-GANGA HI-TECH CITY, UNNAO',
-                    'SARASWATI HI-TECH CITY ALLAHABAD',
-                    'PERFUME PARK, KANNAUJ',
-                    'TRANS-DELHI SIGNATURE CITY, GAZIABAD',
-                    'PLASTIC CITY, AURAIA',
-                    'AMRITSAR KOLKATA INDUSTRIAL CORRIDOR']
+                    'SARASWATI HI-TECH CITY, ALLAHABAD',
+                    'DIBIYAPUR PLASTIC PARK, AURAIYA',
+                    'PERFUME PARK, KANNUAJ',
+                    'BAHERI INDUSTRIAL AREA, BAREILLY',
+                    'MORADABAD SPECIAL ECONOMIC ZONE (SEZ), MORADABAD']
 
     document.querySelectorAll('.project_read_btn').forEach((arr, index) => {
         arr.addEventListener('click', () => {
@@ -15,6 +15,7 @@
                 document.querySelector('.project_usp').innerHTML = 'Content not yet updated'
                 document.querySelector('.project_investment').innerHTML = 'Content not yet updated'
                 document.querySelector('.project_google_map').innerHTML = 'Content not yet updated'
+                document.querySelector('.investor_contact').innerHTML = 'Content not yet updated'
             }
             else{
                 document.querySelector('.project_info_heading').innerHTML = project_names[index]
@@ -50,60 +51,66 @@
                 <div class="usp_list">
                     <p>The project features are as follows:</p>
                     <div class="usp_item">
-                        <img src="images/image 5.png" alt="" class="usp_list_icon">
+                        <img src="images/image 5.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Provision of 24x7 power supply.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 6.png" alt="" class="usp_list_icon">
+                        <img src="images/image 6.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">International design standard.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 7.png" alt="" class="usp_list_icon">
-                        <span class="usp_item_text">Provision for mall, exhibition centre, golf course, commercial, residences and retail shops.</span>
+                        <img src="images/image 7.png" alt="" class="usp_list_icon" />
+                        <span class="usp_item_text">Provision for mall, exhibition centre, golf course, commercial,
+                            residences and retail shops.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 8.png" alt="" class="usp_list_icon">
+                        <img src="images/image 8.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Beautiful landscape with water bodies.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 9.png" alt="" class="usp_list_icon">
+                        <img src="images/image 9.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Ample green spaces.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 10.png" alt="" class="usp_list_icon">
+                        <img src="images/image 10.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Moderate and ambient temperature.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 11.png" alt="" class="usp_list_icon">
+                        <img src="images/image 12.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Self-sufficient in terms of water supply and sewage.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 12.png" alt="" class="usp_list_icon">
+                        <img src="images/image 11.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Adequately planned Sewerage Treatment Plant (STP).</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 13.png" alt="" class="usp_list_icon">
-                        <span class="usp_item_text">Utility infrastructure of water supply, roads, drains, street light.</span>
+                        <img src="images/image 13.png" alt="" class="usp_list_icon" />
+                        <span class="usp_item_text">Utility infrastructure of water supply, roads, drains, street
+                            light.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 14.png" alt="" class="usp_list_icon">
-                        <span class="usp_item_text">Multiple choices for industrial, commercial & residential areas  Planned commercial, residential and elementary infrastructure for industrial units.</span>
+                        <img src="images/image 18.png" alt="" class="usp_list_icon" />
+                        <span class="usp_item_text">Multiple choices for industrial, commercial & residential areas
+                            Planned commercial, residential and elementary infrastructure
+                            for industrial units.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 15.png" alt="" class="usp_list_icon">
+                        <img src="images/image 14.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Emergency infrastructure of police and fire stations..</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 16.png" alt="" class="usp_list_icon">
-                        <span class="usp_item_text">Independent overhead water tank to provide uninterrupted water supply.</span>
+                        <img src="images/image 15.png" alt="" class="usp_list_icon" />
+                        <span class="usp_item_text">Independent overhead water tank to provide uninterrupted water
+                            supply.</span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 17.png" alt="" class="usp_list_icon">
-                        <span class="usp_item_text">Ample parking facility with greenery in the area, providing a healthy surroundings.
+                        <img src="images/image 16.png" alt="" class="usp_list_icon" />
+                        <span class="usp_item_text">Ample parking facility with greenery in the area, providing a
+                            healthy surroundings.
                         </span>
                     </div>
                     <div class="usp_item">
-                        <img src="images/image 18.png" alt="" class="usp_list_icon">
+                        <img src="images/image 17.png" alt="" class="usp_list_icon" />
                         <span class="usp_item_text">Iconic towers to be designed along the Ganga riverfront</span>
                     </div>
                 </div>
@@ -111,7 +118,7 @@
                 document.querySelector('.project_investment').innerHTML = `
                 <div class="project_tab">
                     <img src="images/investment 2.png" alt="" srcset="">
-                    <h2>INVESTNMENT OPPORTUNITIES</h2>
+                    <h2>INVESTMENT OPPORTUNITIES</h2>
                 </div>
                 <div class="investment_content_container">
                     <div class="investment_content">
@@ -149,6 +156,18 @@
                     <h2>LOCATION</h2>
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3569.723091168576!2d80.34218071491513!3d26.52902888288854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c393d42bdebd9%3A0x565ca2daa4b7e02!2sTrans+Ganga+City!5e0!3m2!1sen!2sin!4v1510406627153" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                `
+
+                document.querySelector('.investor_contact').innerHTML = `
+                <div class="investor_contact">
+                <div class="project_tab">
+                    <img src="images/contact 1.png" alt="" srcset="" />
+                    <h2>INTERESTED INVESTORS MAY CONTACT:</h2>
+                </div>
+                <div class="contact_content_container">
+                    <span class="contact_name_investor">1. Shri Rakesh Jha</span>
+                    <span class="address_investor_contact">Project Officer, Trans Ganga<br>Gate No. 4 Shankarpur sarai Distt. Unnao.<br>Phone: 9839163052<br>Email: potransganga@upsidc.com</span>
+                </div>
                 `
             }
         })
